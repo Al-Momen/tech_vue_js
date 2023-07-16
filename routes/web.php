@@ -19,5 +19,6 @@ Route::get('/', function () {
     // return View::make('welcome');
 });
 Route::get('/example-vue', function () {
+    echo "rokib fazil";
     return view('example_vue');
 });
